@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-hollow {
+    @apply px-4 py-2 text-sm text-center text-blue-600 rounded-md shadow-sm flex justify-center items-center border-blue-600 border;
+  }
+
+  .btn-default {
+    @apply px-4 py-2 bg-blue-600 text-sm font-semibold text-center text-white rounded-md shadow-sm flex justify-center items-center;
+  }
+}
